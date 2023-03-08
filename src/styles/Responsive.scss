@@ -1,0 +1,147 @@
+@media screen and (max-width: 1059px) {
+  .home4 {
+    > div {
+      width: 80%;
+    }
+  }
+
+  .home3 {
+    div {
+      width: 80%;
+      p {
+        padding: 2rem;
+      }
+    }
+  }
+  .contact {
+    > main {
+      width: 90%;
+      > form {
+        > div {
+          width: 138%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .home2 {
+    > div {
+      padding: 1rem;
+    }
+    > img {
+      width: 50%;
+    }
+  }
+  .home3 {
+    > div {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  .home4 {
+    > div {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .home4 {
+    height: 120vh;
+    align-items: center;
+    > div {
+      height: 100vh;
+    }
+  }
+  .home > main > h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+
+    > main {
+      margin: auto;
+      justify-content: center;
+    }
+  }
+  .home3 {
+    > div {
+      h1 {
+        padding: 0;
+        width: auto;
+        font-size: 1.5rem;
+        height: auto;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .home4 {
+    div {
+      article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  .contact {
+    main {
+      width: 96%;
+      form > {
+        div {
+          width: 150%;
+        }
+        button {
+          width: 65%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 440px) {
+  nav > main > a {
+    margin: 0.5rem;
+  }
+  .home > main > h1 {
+    font-size: 3rem;
+  }
+  .home2 {
+    flex-direction: column;
+  }
+  .home4 {
+    height: 161vh;
+    > div {
+      height: 147vh;
+      > article {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  .contact {
+    main {
+      width: 100%;
+      border-radius: 0 122px 0px 0;
+      form > {
+        div {
+            width: 200%;
+        }
+        button {
+          width: 90%;
+        }
+      }
+    }
+  }
+  .footerTags {
+    padding: 22px;
+  }
+}
+@media screen and (max-width: 382px){
+    .contact main form > div {
+        width: 283%;
+    }
+}
